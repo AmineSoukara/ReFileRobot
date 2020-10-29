@@ -37,7 +37,7 @@ def GetExpiryDate(chat_id):
     return expires_at
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["help"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["help", "help@ReFileRobot"]))
 async def help_user(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/help")
@@ -51,7 +51,7 @@ async def help_user(bot, update):
 
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["start"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["start", "start@ReFileRobot"]))
 async def start(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/start")
@@ -80,7 +80,7 @@ async def upgrade(bot, update):
         disable_web_page_preview=True
     )
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["donate"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["donate", "donate@ReFileRobot"]))
 async def donate(bot, update):
        await bot.send_message(
              chat_id=update.chat.id,
@@ -94,7 +94,7 @@ async def donate(bot, update):
            )
           )
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["about"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["about", "about@ReFileRobot"]))
 async def about(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
