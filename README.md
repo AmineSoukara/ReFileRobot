@@ -1,5 +1,4 @@
-# TG-RENAMER-BOT
-## Rename Bot - Clone of  [Renamer⚡](https://t.me/renamer_Ns_bot)
+#  [Renamer⚡](https://t.me/refilerobot)
 ---
 
 An Open Source Rename Telegram RoBot
@@ -10,13 +9,9 @@ An Open Source Rename Telegram RoBot
 
 ### Installation
 
-#### The Easy Way
-
-**Watch infotel Video for knowing how to Create yoir own Bot** - 👉 https://youtu.be/yYHrSnuYXpA
-
 ### You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Ns-AnoNymouS/TG-RENAMER-BOT/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/AmineSoukara/ReFileRobot/tree/master)
 
 ## Available BotFather commands
 ```
@@ -39,7 +34,7 @@ cp sample_config.py config.py
 python bot.py
 ```
 
-- For FeedBack and Suggestions, please feel free to say in [@anonymousbotdiscussion](https://telegram.dog/anonymousbotdiscussion)
+- For FeedBack and Suggestions, please feel free to say in [@DamienHelp](https://telegram.dog/DamienHelp)
 
 #### LICENSE
 - GPLv3
