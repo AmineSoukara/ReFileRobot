@@ -13,14 +13,14 @@ Type /help For More Details."""
     UPGRADE_TEXT = "There is no upgrade plan till now it will be added in future"
     DOWNLOAD_START_VIDEO = "🔴 Downloading To My Server..."
     DOWNLOAD_START = "🔴 Downloading To My Server..."
-    UPLOAD_START_VIDEO = "🟢 Uploading As video..."
-    UPLOAD_START = "🟢 Uploading As File..."
+    UPLOAD_START_VIDEO = "🎞 Uploading As video..."
+    UPLOAD_START = "📁 Uploading As File..."
     RCHD_TG_API_LIMIT = "Downloaded In {} Seconds.\nDetected File Size: {}\nSorry. But, I Cannot Upload Files Greater Than 1.95GB Due To Telegram API Limitations.I Can't Do Anything For That 🤷‍♂️."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "**❤ Thank You For Using [Amine Soukara](https://t.me/AmineSoukara)'s Bot ❤**"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "**❤ Thank U For Using [Amine Soukara](https://t.me/AmineSoukara)'s Bot**"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded In {} Seconds.\nUploaded In {} Seconds."
     NOT_AUTH_USER_TEXT = "Please /Upgrade Your Subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users Can Only Upload: {}\nPlease /upgrade Your Subscription.\nIf You Think This Is A Bug, Please Contact <a href='https://t.me/damienHelp'>Damien Help</a>"
-    SAVED_CUSTOM_THUMB_NAIL = "Custom File Thumbnail Saved ✅️. This Image Will Be Deleted Within 24hr"
+    SAVED_CUSTOM_THUMB_NAIL = "✅ Custom File Thumbnail Saved.\n⚠️ This Image Will Be Deleted Within 24hr"
     DEL_ETED_CUSTOM_THUMB_NAIL = "🚫 Custom Thumbnail Cleared Succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "🚫 Media Cleared Succesfully."
     SAVED_RECVD_DOC_FILE = "✅ Document Downloaded Successfully."
@@ -59,8 +59,8 @@ Please short your file name and try again!"""
 
 **🧰 Framework:** Pyrogram
 
-**👨‍💻 Developer:** [AmineSoukara](t.me/AmineSoukara)
+**👨‍💻 Developer:** [@AmineSoukara](t.me/AmineSoukara)
 
-**📮 Channel:** [DAMIEN BOT UPDATES](https://t.me/DAMIENSOUKARA)
+**📮 Channel:** [@DamienSoukara](https://t.me/DAMIENSOUKARA)
 
-**👥 Group:** [DAMIEN BOT SUPPOTERS](https://t.me/DamienHelp)"""
+**👥 Group:** [@DamienHelp](https://t.me/DamienHelp)"""
