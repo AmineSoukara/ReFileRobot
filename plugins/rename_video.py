@@ -33,7 +33,7 @@ from hachoir.parser import createParser
 from PIL import Image
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["rename_video"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["rename_video", "rename_video@ReFileRobot", "v"]))
 async def rename_video(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
         await bot.delete_messages(
