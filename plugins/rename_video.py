@@ -83,7 +83,7 @@ async def rename_video(bot, update):
             new_file_name = download_location + file_name
             os.rename(the_real_download_location, new_file_name)
             await bot.edit_message_text(
-                text=Translation.UPLOAD_START,
+                text=Translation.UPLOAD_START_VIDEO,
                 chat_id=update.chat.id,
                 message_id=b.message_id
                 )
@@ -132,7 +132,7 @@ async def rename_video(bot, update):
                 reply_to_message_id=update.reply_to_message.message_id,
                 progress=progress_for_pyrogram,
                 progress_args=(
-                    Translation.UPLOAD_START,
+                    Translation.UPLOAD_START_VIDEO,
                     b, 
                     c_time
                 )
