@@ -11,8 +11,8 @@ Type /help For More Details."""
     RENAME_403_ERR = "Sorry. You Are Not Permitted To Rename This File."
     ABS_TEXT = " Please Don't Be Selfish."
     UPGRADE_TEXT = "There is no upgrade plan till now it will be added in future"
-    DOWNLOAD_START_VIDEO = "🔴 Downloading To My Server..."
-    DOWNLOAD_START = "🔴 Downloading To My Server..."
+    DOWNLOAD_START_VIDEO = "🌐 Downloading To My Server..."
+    DOWNLOAD_START = "🌐 Downloading To My Server..."
     UPLOAD_START_VIDEO = "🎞 Uploading As video..."
     UPLOAD_START = "📁 Uploading As File..."
     RCHD_TG_API_LIMIT = "Downloaded In {} Seconds.\nDetected File Size: {}\nSorry. But, I Cannot Upload Files Greater Than 1.95GB Due To Telegram API Limitations.I Can't Do Anything For That 🤷‍♂️."
@@ -37,7 +37,7 @@ I Am Renamer Bot ✍ By : <a href='https://t.me/{}'>Damien Soukara</a>
 
 ● Reply to that message with <code>/rename new name.extension</code>. with custom thumbnail support.\n(upload as file)
 
-● Reply to that message with <code>/rename_vidoe new name.extension</code>. with custom thumbnail support.\n(uploading as Video)
+● Reply to that message with <code>/rename_video new name.extension</code>. with custom thumbnail support.\n(uploading as Video)
 
 Support Group : @DamienHelp"""
     REPLY_TO_DOC_FOR_RENAME_FILE = "🤦‍♂️ Reply To A Telegram Media To `/rename New Name.extension` with custom thumbnail support.\n\n(For uploading as file).\n\nSee /help for mor information. "
