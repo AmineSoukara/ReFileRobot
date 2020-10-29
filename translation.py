@@ -1,7 +1,7 @@
 from sample_config import Config
 
 class Translation(object):
-    START_TEXT = """Hello <b>{}</b>,
+    START_TEXT = """<a href='https://telegra.ph/file/849ed260d2f2c590dfdfa.mp4'>●</a> Hello <b>{}</b>,
 
 This Is A Telegram Rename By {}
 
